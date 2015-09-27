@@ -12094,3 +12094,1161 @@ Level flags = 0
 Total triangle count: 21812
 Writing c:\users\william\documents\tf2\decompiled maps\trade_altaris.bsp
 2 minutes, 11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-1488.00 1632.00 96.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 -400.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 1544.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 7168.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 6656.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: invalid neighbor connection on displacement near (3041.93 3296.00 716.60)
+Warning: invalid neighbor connection on displacement near (2868.72 3296.00 -16.20)
+Warning: invalid neighbor connection on displacement near (3290.32 3296.00 742.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (11051720 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 770 texinfos to 527
+Reduced 92 texdatas to 78 (2946 bytes to 2338)
+Writing C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.bsp
+12 seconds elapsed
+
+
+
+6 threads
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+LoadPortals: couldn't read c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+No vis information, direct lighting only.
+8549 faces
+2485150 square feet [357861632.00 square inches]
+184 Displacements
+352259 Square Feet [50725360.00 Square Inches]
+615 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1010 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 157/1024         7536/49152    (15.3%) 
+brushes               1227/8192        14724/98304    (15.0%) 
+brushsides            8085/65536       64680/524288   (12.3%) 
+planes                3322/65536       66440/1310720  ( 5.1%) 
+vertexes             14237/65536      170844/786432   (21.7%) 
+nodes                 6914/65536      221248/2097152  (10.5%) 
+texinfos               527/12288       37944/884736   ( 4.3%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos              184/0           32384/0        ( 0.0%) 
+disp_verts           53176/0         1063520/0        ( 0.0%) 
+disp_tris            94208/0          188416/0        ( 0.0%) 
+disp_lmsamples     1010992/0         1010992/0        ( 0.0%) 
+faces                 8549/65536      478744/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3647/65536      204232/3670016  ( 5.6%) 
+leaves                7072/65536      226304/2097152  (10.8%) 
+leaffaces             9595/65536       19190/131072   (14.6%) 
+leafbrushes           3360/65536        6720/131072   ( 5.1%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            53765/512000     215060/2048000  (10.5%) 
+edges                30566/256000     122264/1024000  (11.9%) 
+LDR worldlights        615/8192        54120/720896   ( 7.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            939/32768        9390/327680   ( 2.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14319/65536       28638/131072   (21.8%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    12294220/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      374648/393216   (95.3%) VERY FULL!
+LDR ambient table     7072/65536       28288/262144   (10.8%) 
+HDR ambient table     7072/65536       28288/262144   (10.8%) 
+LDR leaf ambient     39319/65536     1100932/1835008  (60.0%) 
+HDR leaf ambient      7072/65536      198016/1835008  (10.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/23958    ( 0.0%) 
+pakfile               [variable]      431122/0        ( 0.0%) 
+physics               [variable]    11051720/4194304  (263.5%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22045
+Writing c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+2 minutes, 7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-1488.00 1632.00 96.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 -400.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 1544.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 7168.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 6656.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: invalid neighbor connection on displacement near (3041.93 3296.00 716.60)
+Warning: invalid neighbor connection on displacement near (2868.72 3296.00 -16.20)
+Warning: invalid neighbor connection on displacement near (3290.32 3296.00 742.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (11082348 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 849 texinfos to 591
+Reduced 92 texdatas to 77 (2930 bytes to 2297)
+Writing C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.bsp
+12 seconds elapsed
+
+
+
+6 threads
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+LoadPortals: couldn't read c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+No vis information, direct lighting only.
+8922 faces
+2494053 square feet [359143744.00 square inches]
+184 Displacements
+352261 Square Feet [50725596.00 Square Inches]
+628 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1128 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 156/1024         7488/49152    (15.2%) 
+brushes               1324/8192        15888/98304    (16.2%) 
+brushsides            8761/65536       70088/524288   (13.4%) 
+planes                3684/65536       73680/1310720  ( 5.6%) 
+vertexes             14816/65536      177792/786432   (22.6%) 
+nodes                 7188/65536      230016/2097152  (11.0%) 
+texinfos               591/12288       42552/884736   ( 4.8%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos              184/0           32384/0        ( 0.0%) 
+disp_verts           53176/0         1063520/0        ( 0.0%) 
+disp_tris            94208/0          188416/0        ( 0.0%) 
+disp_lmsamples     1010992/0         1010992/0        ( 0.0%) 
+faces                 8922/65536      499632/3670016  (13.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3889/65536      217784/3670016  ( 5.9%) 
+leaves                7345/65536      235040/2097152  (11.2%) 
+leaffaces            10046/65536       20092/131072   (15.3%) 
+leafbrushes           3506/65536        7012/131072   ( 5.3%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            56479/512000     225916/2048000  (11.0%) 
+edges                32128/256000     128512/1024000  (12.6%) 
+LDR worldlights        628/8192        55264/720896   ( 7.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            983/32768        9830/327680   ( 3.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15033/65536       30066/131072   (22.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]    12315908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      379675/393216   (96.6%) VERY FULL!
+LDR ambient table     7345/65536       29380/262144   (11.2%) 
+HDR ambient table     7345/65536       29380/262144   (11.2%) 
+LDR leaf ambient     40698/65536     1139544/1835008  (62.1%) 
+HDR leaf ambient      7345/65536      205660/1835008  (11.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24484    ( 0.0%) 
+pakfile               [variable]      431122/0        ( 0.0%) 
+physics               [variable]    11082348/4194304  (264.2%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23065
+Writing c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+2 minutes, 11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-1488.00 1632.00 96.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 -400.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 1544.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 7168.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 6656.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: invalid neighbor connection on displacement near (3041.93 3296.00 716.60)
+Warning: invalid neighbor connection on displacement near (2868.72 3296.00 -16.20)
+Warning: invalid neighbor connection on displacement near (3290.32 3296.00 742.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (11082787 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 840 texinfos to 588
+Reduced 91 texdatas to 77 (2916 bytes to 2308)
+Writing C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.bsp
+12 seconds elapsed
+
+
+
+6 threads
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+LoadPortals: couldn't read c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+No vis information, direct lighting only.
+8929 faces
+2492373 square feet [358901760.00 square inches]
+184 Displacements
+352261 Square Feet [50725596.00 Square Inches]
+628 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1074 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 155/1024         7440/49152    (15.1%) 
+brushes               1322/8192        15864/98304    (16.1%) 
+brushsides            8747/65536       69976/524288   (13.3%) 
+planes                3682/65536       73640/1310720  ( 5.6%) 
+vertexes             14818/65536      177816/786432   (22.6%) 
+nodes                 7190/65536      230080/2097152  (11.0%) 
+texinfos               588/12288       42336/884736   ( 4.8%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos              184/0           32384/0        ( 0.0%) 
+disp_verts           53176/0         1063520/0        ( 0.0%) 
+disp_tris            94208/0          188416/0        ( 0.0%) 
+disp_lmsamples     1010992/0         1010992/0        ( 0.0%) 
+faces                 8929/65536      500024/3670016  (13.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3894/65536      218064/3670016  ( 5.9%) 
+leaves                7346/65536      235072/2097152  (11.2%) 
+leaffaces            10052/65536       20104/131072   (15.3%) 
+leafbrushes           3496/65536        6992/131072   ( 5.3%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            56533/512000     226132/2048000  (11.0%) 
+edges                32163/256000     128652/1024000  (12.6%) 
+LDR worldlights        628/8192        55264/720896   ( 7.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            983/32768        9830/327680   ( 3.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15027/65536       30054/131072   (22.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]    12331780/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      379085/393216   (96.4%) VERY FULL!
+LDR ambient table     7346/65536       29384/262144   (11.2%) 
+HDR ambient table     7346/65536       29384/262144   (11.2%) 
+LDR leaf ambient     40777/65536     1141756/1835008  (62.2%) 
+HDR leaf ambient      7346/65536      205688/1835008  (11.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24484    ( 0.0%) 
+pakfile               [variable]      431122/0        ( 0.0%) 
+physics               [variable]    11082787/4194304  (264.2%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23085
+Writing c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+2 minutes, 15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-1488.00 1632.00 96.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 -400.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 1544.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 7168.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 6656.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: invalid neighbor connection on displacement near (3041.93 3296.00 716.60)
+Warning: invalid neighbor connection on displacement near (2868.72 3296.00 -16.20)
+Warning: invalid neighbor connection on displacement near (3290.32 3296.00 742.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (11082267 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 838 texinfos to 587
+Reduced 91 texdatas to 77 (2916 bytes to 2308)
+Writing C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.bsp
+12 seconds elapsed
+
+
+
+6 threads
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+LoadPortals: couldn't read c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+No vis information, direct lighting only.
+8933 faces
+2489578 square feet [358499328.00 square inches]
+184 Displacements
+352261 Square Feet [50725596.00 Square Inches]
+628 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 155/1024         7440/49152    (15.1%) 
+brushes               1321/8192        15852/98304    (16.1%) 
+brushsides            8725/65536       69800/524288   (13.3%) 
+planes                3640/65536       72800/1310720  ( 5.6%) 
+vertexes             14826/65536      177912/786432   (22.6%) 
+nodes                 7182/65536      229824/2097152  (11.0%) 
+texinfos               587/12288       42264/884736   ( 4.8%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos              184/0           32384/0        ( 0.0%) 
+disp_verts           53176/0         1063520/0        ( 0.0%) 
+disp_tris            94208/0          188416/0        ( 0.0%) 
+disp_lmsamples     1010992/0         1010992/0        ( 0.0%) 
+faces                 8933/65536      500248/3670016  (13.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3892/65536      217952/3670016  ( 5.9%) 
+leaves                7338/65536      234816/2097152  (11.2%) 
+leaffaces            10056/65536       20112/131072   (15.3%) 
+leafbrushes           3492/65536        6984/131072   ( 5.3%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            56539/512000     226156/2048000  (11.0%) 
+edges                32177/256000     128708/1024000  (12.6%) 
+LDR worldlights        628/8192        55264/720896   ( 7.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            983/32768        9830/327680   ( 3.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15027/65536       30054/131072   (22.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]    12305308/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      379125/393216   (96.4%) VERY FULL!
+LDR ambient table     7338/65536       29352/262144   (11.2%) 
+HDR ambient table     7338/65536       29352/262144   (11.2%) 
+LDR leaf ambient     40649/65536     1138172/1835008  (62.0%) 
+HDR leaf ambient      7338/65536      205464/1835008  (11.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24484    ( 0.0%) 
+pakfile               [variable]      431122/0        ( 0.0%) 
+physics               [variable]    11082267/4194304  (264.2%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23091
+Writing c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+2 minutes, 11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-1488.00 1632.00 96.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 -400.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 1544.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 7168.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 6656.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: invalid neighbor connection on displacement near (3041.93 3296.00 716.60)
+Warning: invalid neighbor connection on displacement near (2868.72 3296.00 -16.20)
+Warning: invalid neighbor connection on displacement near (3290.32 3296.00 742.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (11082267 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 838 texinfos to 587
+Reduced 91 texdatas to 77 (2916 bytes to 2308)
+Writing C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.bsp
+12 seconds elapsed
+
+
+
+6 threads
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+LoadPortals: couldn't read c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+No vis information, direct lighting only.
+8933 faces
+2489578 square feet [358499328.00 square inches]
+184 Displacements
+352261 Square Feet [50725596.00 Square Inches]
+628 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1053 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 155/1024         7440/49152    (15.1%) 
+brushes               1321/8192        15852/98304    (16.1%) 
+brushsides            8725/65536       69800/524288   (13.3%) 
+planes                3640/65536       72800/1310720  ( 5.6%) 
+vertexes             14826/65536      177912/786432   (22.6%) 
+nodes                 7182/65536      229824/2097152  (11.0%) 
+texinfos               587/12288       42264/884736   ( 4.8%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos              184/0           32384/0        ( 0.0%) 
+disp_verts           53176/0         1063520/0        ( 0.0%) 
+disp_tris            94208/0          188416/0        ( 0.0%) 
+disp_lmsamples     1010992/0         1010992/0        ( 0.0%) 
+faces                 8933/65536      500248/3670016  (13.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3892/65536      217952/3670016  ( 5.9%) 
+leaves                7338/65536      234816/2097152  (11.2%) 
+leaffaces            10056/65536       20112/131072   (15.3%) 
+leafbrushes           3492/65536        6984/131072   ( 5.3%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            56539/512000     226156/2048000  (11.0%) 
+edges                32177/256000     128708/1024000  (12.6%) 
+LDR worldlights        628/8192        55264/720896   ( 7.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            983/32768        9830/327680   ( 3.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15027/65536       30054/131072   (22.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]    12305308/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      379131/393216   (96.4%) VERY FULL!
+LDR ambient table     7338/65536       29352/262144   (11.2%) 
+HDR ambient table     7338/65536       29352/262144   (11.2%) 
+LDR leaf ambient     40649/65536     1138172/1835008  (62.0%) 
+HDR leaf ambient      7338/65536      205464/1835008  (11.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24484    ( 0.0%) 
+pakfile               [variable]      431122/0        ( 0.0%) 
+physics               [variable]    11082267/4194304  (264.2%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23091
+Writing c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+2 minutes, 14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-1488.00 1632.00 96.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 6640.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 -400.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 7152.0 1544.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 7168.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 6656.0 8.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 -512.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 5632.0 1432.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_badlands_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: invalid neighbor connection on displacement near (3041.93 3296.00 716.60)
+Warning: invalid neighbor connection on displacement near (2868.72 3296.00 -16.20)
+Warning: invalid neighbor connection on displacement near (3290.32 3296.00 742.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (11082814 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 844 texinfos to 590
+Reduced 92 texdatas to 78 (2930 bytes to 2322)
+Writing C:\Users\William\Documents\GitHub\trade_altaris\trade_altaris.bsp
+12 seconds elapsed
+
+
+
+6 threads
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+reading c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+LoadPortals: couldn't read c:\users\william\documents\github\trade_altaris\trade_altaris.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+No vis information, direct lighting only.
+8938 faces
+2489586 square feet [358500416.00 square inches]
+184 Displacements
+352261 Square Feet [50725596.00 Square Inches]
+628 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 156/1024         7488/49152    (15.2%) 
+brushes               1321/8192        15852/98304    (16.1%) 
+brushsides            8726/65536       69808/524288   (13.3%) 
+planes                3656/65536       73120/1310720  ( 5.6%) 
+vertexes             14831/65536      177972/786432   (22.6%) 
+nodes                 7188/65536      230016/2097152  (11.0%) 
+texinfos               590/12288       42480/884736   ( 4.8%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos              184/0           32384/0        ( 0.0%) 
+disp_verts           53176/0         1063520/0        ( 0.0%) 
+disp_tris            94208/0          188416/0        ( 0.0%) 
+disp_lmsamples     1010992/0         1010992/0        ( 0.0%) 
+faces                 8938/65536      500528/3670016  (13.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3898/65536      218288/3670016  ( 5.9%) 
+leaves                7345/65536      235040/2097152  (11.2%) 
+leaffaces            10059/65536       20118/131072   (15.3%) 
+leafbrushes           3493/65536        6986/131072   ( 5.3%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            56580/512000     226320/2048000  (11.1%) 
+edges                32197/256000     128788/1024000  (12.6%) 
+LDR worldlights        628/8192        55264/720896   ( 7.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            983/32768        9830/327680   ( 3.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15021/65536       30042/131072   (22.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 2/512           704/180224   ( 0.4%) 
+LDR lightdata         [variable]    12305592/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      379629/393216   (96.5%) VERY FULL!
+LDR ambient table     7345/65536       29380/262144   (11.2%) 
+HDR ambient table     7345/65536       29380/262144   (11.2%) 
+LDR leaf ambient     40672/65536     1138816/1835008  (62.1%) 
+HDR leaf ambient      7345/65536      205660/1835008  (11.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24484    ( 0.0%) 
+pakfile               [variable]      431122/0        ( 0.0%) 
+physics               [variable]    11082814/4194304  (264.2%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23098
+Writing c:\users\william\documents\github\trade_altaris\trade_altaris.bsp
+2 minutes, 12 seconds elapsed
